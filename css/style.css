@@ -1,0 +1,97 @@
+/* LAYOUT */
+
+html, body, #home{
+    height: 100%;
+}
+
+html{
+    overflow-x: hidden;
+
+}
+
+body{
+    background: url(/img/capa.png),
+                url(/img/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    
+}
+
+nav.navbar-transparente{
+    background: rgb(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: white;
+ 
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    color: #9bf0e1;
+}
+
+.navbar-light .container .navbar-toggler{
+    color: rgba(255, 255, 255, 0.5);
+   border-color: rgba(255, 255, 255, .5);
+}
+
+#home .container .row .col-md-12{
+    text-align: center;
+}
+
+#home .container .row .color-btn{
+    background-color: #7c25f8;
+    color: white;
+}
+#home .container .row .color-btn:hover{
+    transition: .7s ease;
+    background-color:#1DB954;
+    color: white;
+}
+#home .container .row .bg-btn:hover{
+    transition: .7s ease-in;
+    background-color:#1DB954;
+    color: white;
+}
+
+#home .container .row .btn{
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.color-titles{
+    color: #7c25f8;
+}
+
+#conteudo{
+    padding: 0px 0px 100px 0px;
+}
+
+.color-blue{
+    color: #9bf0e1;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+.img-rotate{
+    padding-left: 80px;
+    transform:  rotate(30deg);
+}
+
+@media (max-width:600px) {
+    #conteudo .container .row img{
+        width: 100%;
+    }
+  
+
+}
+
+@media (max-width:880px) {
+    #conteudo-two .img-rotate{
+        padding: 40px 0px;
+    }
+
+}
+
+
+
