@@ -78,11 +78,35 @@ nav.navbar-transparente{
     transform:  rotate(30deg);
 }
 
+footer{
+    background-color: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer .container ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container ul li a:hover{
+    color: #9bf0e1;
+}
+
+footer ul li{
+    list-style: none;
+    float: right;
+    margin-left: 10px;
+}
+
+
+
+
+
 @media (max-width:600px) {
     #conteudo .container .row img{
         width: 100%;
     }
-  
 
 }
 
@@ -90,6 +114,7 @@ nav.navbar-transparente{
     #conteudo-two .img-rotate{
         padding: 40px 0px;
     }
+
 
 }
 
